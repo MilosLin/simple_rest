@@ -1,0 +1,19 @@
+{
+    "API": {
+        "ListenPort" : ":8000"
+    },
+    "Database": {
+        "MaxOpenConns": 10,
+        "MaxIdleConns": 5,
+        "ConnMaxLifeTime": 1800,
+        "Timeout": "900s",
+        "Loc": "UTC",
+        "AccountDB": {
+            "db": "account_db",
+            "account": "root",
+            "password": "root",
+            "ip": "127.0.0.1",
+            "port": 3306
+        }
+    }
+}

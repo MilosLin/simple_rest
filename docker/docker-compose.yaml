@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  acc-onlinedb:
+    image: "mysql:5.7.22"
+    ports:
+    - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: "%"
+    volumes:
+      - ./mysql:/etc/mysql/conf.d
+      - ./mysql/init_file:/docker-entrypoint-initdb.d
+    networks:
+      - acc-network
+networks:
+  acc-network:
+    driver: bridge

@@ -1,0 +1,8 @@
+{
+    "api":{
+        "listenPort": 6215
+    },
+    "env":{
+        "hello": "world"
+    }
+}

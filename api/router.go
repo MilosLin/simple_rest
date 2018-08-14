@@ -3,6 +3,7 @@ package api
 import (
 	"simple_rest/api/controller/dbaccess"
 	"simple_rest/api/controller/demo"
+	"simple_rest/api/controller/fixme"
 
 	"github.com/gin-gonic/gin"
 )
@@ -16,6 +17,7 @@ func BindRouting(router *gin.Engine) {
 		v1.GET("/get", demo.Getting)
 		v1.POST("/post", demo.Postting)
 		v1.GET("/user", dbaccess.GetUser)
+		v1.GET("/deposit", fixme.GetDepostit)
 	}
 
 }

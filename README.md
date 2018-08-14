@@ -121,7 +121,7 @@ Input:
 Output:
 
 | 變數名稱 | 型態 | 說明 |
-|---|---|---|---|
+|---|---|---|
 | ID | int32 | 使用者ID |
 | Account | string | 使用者帳號 |
 | Password | string | 使用者密碼 |

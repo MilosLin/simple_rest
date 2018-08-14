@@ -2,6 +2,14 @@
 
   RESTFul API 範例框架
 
+## 所需套件
+
+| 套件名稱 | Version | 說明 | 官網 |
+|---|---|---|---|
+| golang | 1.10.3 | Golang 編譯工具 | [Link](https://golang.org/dl/) |
+| docker | 18.06.0-ce | docker 執行工具,用於建立本機環境 | [Link](https://www.docker.com/products/docker-engine#/download) |
+| docker-compose | 1.22.0 | docker-compose 執行工具,用於操作docker指令 | [Link](https://docs.docker.com/compose/install/#prerequisites) |
+
 ## 專案結構
 
 | 路徑 | 說明 |
@@ -11,8 +19,11 @@
 | api/middleware | gin 框架中間層 |
 | api/protocol | Http 通用協定 |
 | config | 設定檔讀取套件 |
+| database | mysql 資料庫連線存取套件 |
 | service | 業務邏輯層 |
 | env | 常數 |
+| vendor | 第三方套件 |
+| docker | docker-compose設定檔與mysql設定資料 |
 
 ## Usage
 

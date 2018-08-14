@@ -128,4 +128,4 @@ Output:
 
 ## 啟動Mysql時的預設資料結構
 
-此專案使用docker來建置資料庫，其預設資料放在 docker/init_file/init.sql 中
+此專案使用docker來建置資料庫，其預設資料放在 `docker/init_file/init.sql` 中

@@ -3,8 +3,8 @@
         "ListenPort" : ":8000"
     },
     "Database": {
-        "MaxOpenConns": 10,
-        "MaxIdleConns": 5,
+        "MaxOpenConns": 50,
+        "MaxIdleConns": 50,
         "ConnMaxLifeTime": 1800,
         "Timeout": "900s",
         "Loc": "UTC",

@@ -23,7 +23,7 @@ func GetUser(c *gin.Context) {
 	// 綁定Input參數至結構中
 	if err := c.Bind(input); err != nil {
 		log.Println(err)
-		c.JSON(http.StatusInternalServerError, res)
+		c.JSON(http.StatusBadRequest, res)
 		return
 	}
 

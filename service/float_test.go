@@ -8,7 +8,7 @@ import (
 func TestMultiHundred(t *testing.T) {
 	have := MultiHundred(1129.6)
 
-	want := float64(1129600)
+	want := float64(112960)
 	if have != want {
 		t.Fatalf("MultiHundred(1129.6)=%f want=%f", have, want)
 	}
